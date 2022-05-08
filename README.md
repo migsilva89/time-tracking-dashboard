@@ -27,7 +27,7 @@ Users should be able to:
 
 ## What I learned:
 
-- How to manipulate data from Json. 
+- How to manipulate data from JSON. 
 - How to install and setup Tailwind PostCss
 - How to install and setup VueJs
 
