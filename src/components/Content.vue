@@ -1,10 +1,10 @@
 <template>
-    <div class="flex font-Rubik justify-center bg-gray-900 h-full pb-80">
-        <main class="lg:max-w-4xl pt-16 lg:grid lg:grid-cols-4 lg:gap-4 lg:items-center">
+    <div class="flex font-Rubik justify-center bg-gray-900 h-max">
+        <main class="lg:max-w-4xl pt-56 pb-80 lg:grid lg:grid-cols-4 lg:gap-4 lg:items-center">
 
             <div class="rounded-xl bg-indigo-900">
                 <div class="lg:grid rounded-xl bg-indigo-500 p-6 flex justify-center items-center text-white">
-                    <div class="w-14 ">
+                    <div class="w-14">
                         <img class="border-2 rounded-full" src="@/assets/images/image-jeremy.png" alt="">
                     </div>
                     <div class="lg:pl-0 pl-6">
@@ -78,7 +78,6 @@
 
         </main>
     </div>
- 
 </template>
 
 <script setup>
