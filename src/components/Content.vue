@@ -1,19 +1,19 @@
 <template>
-    <div class="flex font-Rubik justify-center bg-gray-900 min-h-screen">
-        <main class="lg:max-w-6xl pt-56 pb-80 lg:grid lg:grid-cols-4 lg:gap-4 lg:items-center">
+    <div class="flex font-Rubik justify-center bg-veryDarkBlue min-h-screen">
+        <main class="lg:max-w-6xl lg:grid lg:grid-cols-4 lg:gap-8 lg:items-center">
 
-            <div class="rounded-xl bg-indigo-900">
-                <div class="lg:grid rounded-xl bg-indigo-500 p-6 flex justify-center items-center text-white">
+            <div class="rounded-xl bg-darkBlue">
+                <div class="lg:grid rounded-xl bg-indigo-500 p-6 lg:p-8 flex justify-center items-center text-white">
                     <div class="w-14">
                         <img class="border-2 rounded-full" src="@/assets/images/image-jeremy.png" alt="">
                     </div>
                     <div class="lg:pl-0 pl-6">
                         <p class="text-indigo-200 text-xs lg:pt-6">Report for</p>
-                        <h2 class="text-xl lg:text-4xl lg:font-thin lg:pb-10">Jeremy Robson</h2>
+                        <h2 class="text-xl lg:text-4xl lg:font-thin lg:pb-16">Jeremy Robson</h2>
                     </div>
                 </div>
 
-                <div class="lg:grid lg:pl-4 py-4 lg:py-12 flex justify-center lg:justify-start lg:gap-6 gap-8 text-sm text-indigo-300 ">
+                <div class="lg:grid lg:pl-4 py-4 lg:py-8 flex justify-center lg:justify-start lg:gap-6 gap-8 text-sm text-indigo-300 ">
                     <button @click="toggleDaily" class=" hover:text-white">Daily</button>
                     <button @click="toggleWeekly" class=" lg:pl-3 hover:text-white">Weekly</button>
                     <button @click="toggleMonthly" class=" lg:pl-5 hover:text-white">Monthly</button>
@@ -22,6 +22,7 @@
 
             <div v-if="active !== null">
                 <Card 
+                    class="lg:pb-3"
                     backgroundImage="bg-[url('/src/assets/images/icon-work.svg')]"
                     backgroundColor="bg-lightRed"
                     :title="active[0].title" 
@@ -41,6 +42,7 @@
 
             <div v-if="active !== null">
                 <Card 
+                    class="lg:pb-3"
                     backgroundImage="bg-[url('/src/assets/images/icon-study.svg')]"
                     backgroundColor="bg-lightRedStudy"
                     :title="active[2].title" 
@@ -59,6 +61,7 @@
               
             <div v-if="active !== null">
                 <Card 
+                    class="lg:pb-3"
                     backgroundImage="bg-[url('/src/assets/images/icon-social.svg')]"
                     backgroundColor="bg-violet"
                     :title="active[4].title" 

@@ -6,7 +6,7 @@
                 <div class="bg-[length:60px_60px] bg-no-repeat bg-right-top pt-6 lg:pt-11" :class="[backgroundImage]"></div>
             </div>
 
-            <div class="lg:relative rounded-xl bg-indigo-900 py-4 lg:py-8">
+            <div class="lg:relative rounded-xl bg-darkBlue py-4 lg:py-8">
                 <div class=" lg:grid lg:justify-start lg:pl-4 flex justify-evenly items-center">
                     <div class="text-white">
                         <p class="text-xs lg:text-lg font-bold">{{ title }}</p>
