@@ -1,5 +1,5 @@
 <template>
-    <div class="flex font-Rubik justify-center bg-gray-900 h-max">
+    <div class="flex font-Rubik justify-center bg-gray-900 min-h-screen">
         <main class="lg:max-w-4xl pt-56 pb-80 lg:grid lg:grid-cols-4 lg:gap-4 lg:items-center">
 
             <div class="rounded-xl bg-indigo-900">
