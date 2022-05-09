@@ -1,6 +1,6 @@
 <template>
     <div class="flex font-Rubik justify-center bg-gray-900 min-h-screen">
-        <main class="lg:max-w-4xl pt-56 pb-80 lg:grid lg:grid-cols-4 lg:gap-4 lg:items-center">
+        <main class="lg:max-w-6xl pt-56 pb-80 lg:grid lg:grid-cols-4 lg:gap-4 lg:items-center">
 
             <div class="rounded-xl bg-indigo-900">
                 <div class="lg:grid rounded-xl bg-indigo-500 p-6 flex justify-center items-center text-white">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
 
-                <div class="lg:grid lg:pl-4 py-4 flex justify-center lg:justify-start lg:gap-4 gap-8 text-sm text-indigo-300 ">
+                <div class="lg:grid lg:pl-4 py-4 lg:py-12 flex justify-center lg:justify-start lg:gap-6 gap-8 text-sm text-indigo-300 ">
                     <button @click="toggleDaily" class=" hover:text-white">Daily</button>
                     <button @click="toggleWeekly" class=" lg:pl-3 hover:text-white">Weekly</button>
                     <button @click="toggleMonthly" class=" lg:pl-5 hover:text-white">Monthly</button>
