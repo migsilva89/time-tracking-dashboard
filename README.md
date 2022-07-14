@@ -2,6 +2,8 @@
 
 This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). 
 
+![Screenshot](https://i.ibb.co/Zf8CjJD/Screenshot-2022-07-14-at-15-40-38.png)
+
 ## Overview
 
 ### The challenge
@@ -31,14 +33,6 @@ Users should be able to:
 - How to install and setup Tailwind PostCss
 - How to install and setup VueJs
 
-Tips or advice on how to improve are very welcome, thank you all!
-
-## Miguel Silva
-
-[Github](https://github.com/migsilva89) -
-[Linkedin](https://www.linkedin.com/in/miguelmpsilva/) -
-[Twitter](https://twitter.com/Miguelmpsilva) 
-
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
@@ -64,3 +58,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+[Linkedin](https://www.linkedin.com/in/miguelmpsilva/) - 
+[Twitter](https://twitter.com/Miguelmpsilva)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

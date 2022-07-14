@@ -3,7 +3,7 @@
         <main class="lg:max-w-6xl lg:grid lg:grid-cols-4 lg:gap-8 lg:items-center">
 
             <div class="rounded-xl bg-darkBlue">
-                <div class="lg:grid rounded-xl bg-indigo-500 p-6 lg:p-8 flex justify-center items-center text-white">
+                <div class="lg:grid rounded-xl bg-indigo-500 p-6 lg:p-8 flex justify-center items-center text-white lg:mt-0 mt-24">
                     <div class="w-14">
                         <img class="border-2 rounded-full" src="@/assets/images/image-jeremy.png" alt="">
                     </div>
